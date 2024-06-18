@@ -1,5 +1,5 @@
 import HTTPStatusCodes
-response_codes=input("enter the status code of the FTP3 server : ")
+response_codes=input("enter the status code of the FTP4 server : ")
 if response_codes in HTTPStatusCodes.codes:
    print ("code description: ", HTTPStatusCodes.codes[response_codes])
 else:
